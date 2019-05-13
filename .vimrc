@@ -56,6 +56,7 @@ set wildmenu
 set showcmd
 set showmatch
 set smartcase
+set spelllang=es
 
 :map <C-p> :CtrlP
 :map <F6> :tabe
@@ -63,4 +64,7 @@ set smartcase
 :map <F5> :tabl<cr>
 :map <F3> :tabn<cr>
 :map <F2> :tabp<cr>
+:map <F7> :set spell!<cr>
+:map <F8> :set number<cr>
+:map <F9> :set nonumber<cr>
 
