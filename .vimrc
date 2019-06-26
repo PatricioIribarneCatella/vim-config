@@ -67,4 +67,6 @@ set spelllang=es
 :map <F7> :set spell!<cr>
 :map <F8> :set number<cr>
 :map <F9> :set nonumber<cr>
+:nnoremap <C-u> :UndotreeToggle<cr>
+
 
