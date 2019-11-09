@@ -38,6 +38,9 @@ Plugin 'pangloss/vim-javascript'
 " GLSL syntax highlight support"
 Plugin 'petrbroz/vim-glsl'
 
+" Octave/Matlab highlight support"
+Plugin 'jvirtanen/vim-octave'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 
