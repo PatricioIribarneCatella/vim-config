@@ -51,15 +51,20 @@ set showmatch
 set smartcase
 set spelllang=es
 
-:map <C-p> :CtrlP
-:map <F6> :tabe
+" Tabs navigation"
+:map <F2> :tabp<cr>
+:map <F3> :tabn<cr>
 :map <F4> :tabr<cr>
 :map <F5> :tabl<cr>
-:map <F3> :tabn<cr>
-:map <F2> :tabp<cr>
+:map <F6> :tabe 
+
+" Spelling check"
 :map <F7> :set spell!<cr>
+
+" Line numbers"
 :map <F8> :set number<cr>
 :map <F9> :set nonumber<cr>
-:nnoremap <C-u> :UndotreeToggle<cr>
 
+:map <C-p> :CtrlP
+:nnoremap <C-u> :UndotreeToggle<cr>
 
