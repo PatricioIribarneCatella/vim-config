@@ -67,4 +67,5 @@ set spelllang=es
 
 :map <C-p> :CtrlP
 :nnoremap <C-u> :UndotreeToggle<cr>
+:map <C-s> :sh<cr>
 
