@@ -12,6 +12,7 @@ It requires [_Vundle_](https://github.com/VundleVim/Vundle.vim) to install them.
 - Ctrl-P
 - _Julia Lang_ Syntax Highlight
 - _Javascript_ Syntax Highlight
+- _Octabe/Matlab_ Syntax Highlight
 
 ### Install
 
