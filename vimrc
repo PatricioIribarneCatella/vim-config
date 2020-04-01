@@ -29,6 +29,11 @@ Plugin 'mbbill/undotree'
 " Ctrl-P Plugin support"
 Plugin 'ctrlpvim/ctrlp.vim'
 
+" LightLine plugin"
+Plugin 'itchyny/lightline.vim'
+
+" LANGUAJES SYNTAX HIGHLIGHT "
+
 " Julia syntax highlight support"
 Plugin 'JuliaEditorSupport/julia-vim'
 
@@ -44,6 +49,8 @@ Plugin 'jvirtanen/vim-octave'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+set noshowmode
+set laststatus=2
 set wildmode=longest,list,full
 set wildmenu
 set showcmd
